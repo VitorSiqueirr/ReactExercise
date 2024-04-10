@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: end;
+  font-size: 1rem;
+  font-weight: 500;
+
+  --spring-color: #d154b0;
+  --summer-color: #fae187;
+  --autumn-color: #e8875a;
+  --winter-color: #ceeaf2;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.spring-title {
+  filter: drop-shadow(0 0 1rem var(--spring-color));
+}
+
+.summer-title {
+  filter: drop-shadow(0 0 1rem var(--summer-color));
+}
+
+.autumn-title {
+  filter: drop-shadow(0 0 1rem var(--autumn-color));
+}
+
+.winter-title {
+  filter: drop-shadow(0 0 1rem var(--winter-color));
+}
+
+.container-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  gap: 2rem;
+}
+
+.container-without-info {
+  display: block;
+  width: max-content;
+  margin: auto;
+}
+
+.color-border {
+  border: 3px solid var(--spring-color);
+}
+
+.spring {
+  border: 3px solid var(--spring-color);
+}
+
+.summer {
+  border: 3px solid var(--summer-color);
+}
+
+.autumn {
+  border: 3px solid var(--autumn-color);
+}
+
+.winter {
+  border: 3px solid var(--winter-color);
+}
